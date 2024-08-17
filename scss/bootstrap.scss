@@ -1,0 +1,52 @@
+/******* Customised Bootstrap Styles *******/
+
+/* Setting the primary brand colour for the website */
+$primary: #5b8c51;
+
+/* Setting the secondary brand colour for accent elements */
+$secondary: #eddd5e;
+
+/* Defining the light shade, often used for backgrounds */
+$light: #f7f7f7;
+
+/* Defining the dark shade, typically used for text and borders */
+$dark: #404a3d;
+
+/* Setting the base font family for the entire website */
+$font-family-base: "Open Sans", sans-serif;
+
+/* Specifying the font family for headings to give a distinct style */
+$headings-font-family: "Libre Baskerville", serif;
+
+/* Customising the default body text colour for better readability */
+$body-color: #777777;
+
+/* Setting the default colour for all headings */
+$headings-color: $dark;
+
+/* Making headings bold by default */
+$headings-font-weight: 700;
+
+/* Ensuring that display headings are also bold */
+$display-font-weight: 700;
+
+/* Enabling responsive font sizes for better accessibility on all devices */
+$enable-responsive-font-sizes: true;
+
+/* Setting a custom border radius for buttons and other elements */
+$border-radius: 8px;
+
+/* Ensuring small elements use the custom border radius */
+$border-radius-sm: $border-radius;
+
+/* Ensuring large elements use the same custom border radius */
+$border-radius-lg: $border-radius;
+
+/* Removing underlines from links by default */
+$link-decoration: none;
+
+/* Allowing the use of negative margins for layout flexibility */
+$enable-negative-margins: true;
+
+/* Importing the main Bootstrap SCSS file with all customisations */
+@import "bootstrap/scss/bootstrap";
